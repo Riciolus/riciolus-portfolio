@@ -12,7 +12,23 @@ type TimelineItem = {
 
 const timeline: TimelineItem[] = [
   {
-    period: "May 2024 - Present",
+    period: "Dec 2025",
+    status: "Completed",
+    title: "Jarjarcoin - Crypto Price Visualization Web",
+    image: "/projects/jarjar-coin.png",
+    url: "https://jarjarcoin.vercel.app",
+    description:
+      "A full-stack crypto price dashboard that visualizes BTC and ETH historical OHLC data using professional candlestick charts. Built with a secure server-side architecture, Redis caching (cache-aside pattern), and normalized financial data for scalability and performance.",
+    techstack: [
+      "Next.js",
+      "TypeScript",
+      "Redis",
+      "TradingView Lightweight Charts",
+      "CryptoCompare API",
+    ],
+  },
+  {
+    period: "May 2025 - July 2025",
     status: "In Progress",
     title: "Jobpilot AI Career Assistant",
     image: "/projects/jobcopilot.png",
