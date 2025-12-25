@@ -28,7 +28,7 @@ const Profile = () => {
 
   return (
     <div className="space-y-1 lg:space-y-3 lg:fixed w-[clamp(300px,20vw,800px)] h-full ">
-      <div className="absolute w-[50vw] xl:w-full  h-3/4  -top-22 opacity-40 -right-64">
+      <div className="absolute w-[50vw] lg:w-full  h-3/4  -top-22 opacity-40 -right-16 md:-right-52 lg:-right-64">
         <Image
           src="/bg-hidden.png"
           alt=""
